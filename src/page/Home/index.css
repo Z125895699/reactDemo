@@ -1,4 +1,44 @@
 
+.home{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.edit{
+  min-width:300px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.note{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.time{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 16px 0;
+}
+.date{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 16px 0;
+}
+.item{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 32px 0;
+}
+.item-left{
+  margin-right: 16px ;
+}
+
 .remove{
   border: 0;
   background-color: rgb(212, 101, 101);
